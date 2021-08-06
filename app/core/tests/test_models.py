@@ -31,7 +31,7 @@ class ModelTests(TestCase):
     def test_create_new_super_user(self):
                 """Test creating a new super user"""
                 user = get_user_model().objects.create_user(
-                    'hassan@gmail.com',
+                    'hassansahi6464@gmail.com',
                     'admin'
                 )
 
